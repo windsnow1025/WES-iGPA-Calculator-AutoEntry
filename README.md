@@ -8,18 +8,23 @@ This project automates the process of entering course data into the GPA Calculat
 - **Selenium Integration:** Uses Selenium to interact with the WES iGPA Calculator website and Scholaro GPA Calculator.
 - **Error Handling:** Includes basic error handling for file reading and data validation.
 
-## Requirements
+## Development
 
-- Python 3
-- Libraries:
-  - selenium
-  - pandas
+###[requirements.txt](../Media-Processor/requirements.txt) Python uv
 
-You can install these libraries using pip:
+1. Install uv: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+2. Install Python in uv: `uv python install 3.12`; upgrade Python in uv: `uv python install 3.12`
+3. Configure requirements:
+  ```bash
+  uv sync --refresh
+  ```
 
-```bash
-pip install -r requirements.txt
-```
+### Pycharm Professional
+
+1. Add New Interpreter >> Add Local Interpreter
+  - Environment: Select existing
+  - Type: uv
+2. Add New Configuration >> uv run >> script: `main.py`
 
 ## Usage
 
