@@ -19,7 +19,7 @@ This project automates the process of entering course data into the GPA Calculat
   uv sync --refresh
   ```
 
-### Pycharm
+### PyCharm
 
 1. Add New Interpreter >> Add Local Interpreter
   - Environment: Select existing
