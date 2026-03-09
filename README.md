@@ -21,10 +21,9 @@ This project automates the process of entering course data into the GPA Calculat
 
 ### PyCharm
 
-1. Add New Interpreter >> Add Local Interpreter
+Add New Interpreter >> Add Local Interpreter
   - Environment: Select existing
   - Type: uv
-2. Add New Configuration >> uv run >> Script: `main.py`
 
 ## Usage
 
